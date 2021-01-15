@@ -29,3 +29,7 @@
     serverless remove -v
     sls remove -v
 ```
+### Redeploy application
+```
+    sls deploy -f createAuction -v
+```
