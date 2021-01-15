@@ -19,3 +19,13 @@
     sls create --name YOUR_PROJECT_NAME --template-url https://github.com/codingly-io/sls-base
     cd YOUR_PROJECT_NAME
 ```
+### Application deploy
+```
+    serverless deploy
+    sls deploy
+```
+### To destroy resource
+```
+    serverless remove -v
+    sls remove -v
+```
