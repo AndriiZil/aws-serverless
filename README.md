@@ -2,7 +2,10 @@
 ```
     npm install -g serverless
 ```
-
+### Framework
+```
+    https://www.serverless.com/
+```
 ### Configure AWS CLI
 ```
     aws configure
@@ -23,13 +26,18 @@
 ```
     serverless deploy
     sls deploy
+    sls deploy -v
 ```
 ### To destroy resource
 ```
     serverless remove -v
     sls remove -v
 ```
-### Redeploy application
+### Redeploy application if did't change yml file
 ```
     sls deploy -f createAuction -v
+```
+### Redeploy single lambda
+```
+    sls deploy -f getAuctions -v
 ```
